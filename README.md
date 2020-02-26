@@ -18,6 +18,19 @@ After Listener Firmware is uploaded to device
 	  lep 
 	  Press "CTRL A"
 	  Press "L"
-    Type output name "Enter"
+    	  Type output file name then press "Enter"
     
 From here the output from the tags should be recorded in CSV format.
+
+IF LISTENER FIRMWARE WAS NOT INSTALLED PROPERLY:
+ Open Terminal
+ Enter Commands:
+ 	Minicom -D /dev/serial0
+	Press "Enter" Twice
+	nis 0x1234
+	nmp
+	Press "Enter" Twice"
+	lep
+	Press "CTRL A"
+	Press "L"
+	Type output file name then press "Enter"
